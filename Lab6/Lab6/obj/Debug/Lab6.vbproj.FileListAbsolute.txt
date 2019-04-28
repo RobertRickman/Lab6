@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Lab6\Lab6\bin\Debug\Lab6.exe.config
+C:\Users\user\source\repos\Lab6\Lab6\bin\Debug\Lab6.exe
+C:\Users\user\source\repos\Lab6\Lab6\bin\Debug\Lab6.pdb
+C:\Users\user\source\repos\Lab6\Lab6\bin\Debug\Lab6.xml
+C:\Users\user\source\repos\Lab6\Lab6\obj\Debug\Lab6.Form1.resources
+C:\Users\user\source\repos\Lab6\Lab6\obj\Debug\Lab6.Resources.resources
+C:\Users\user\source\repos\Lab6\Lab6\obj\Debug\Lab6.vbproj.GenerateResource.cache
+C:\Users\user\source\repos\Lab6\Lab6\obj\Debug\Lab6.vbproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Lab6\Lab6\obj\Debug\Lab6.exe
+C:\Users\user\source\repos\Lab6\Lab6\obj\Debug\Lab6.xml
+C:\Users\user\source\repos\Lab6\Lab6\obj\Debug\Lab6.pdb
+C:\Users\user\source\repos\Lab6\Lab6\bin\Debug\Lab6.mdb
+C:\Users\user\source\repos\Lab6\Lab6\bin\Debug\Lab6.exe.CodeAnalysisLog.xml
+C:\Users\user\source\repos\Lab6\Lab6\bin\Debug\Lab6.exe.lastcodeanalysissucceeded

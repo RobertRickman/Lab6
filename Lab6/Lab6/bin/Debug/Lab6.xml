@@ -1,0 +1,236 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab6
+</name>
+</assembly>
+<members>
+<member name="T:Lab6.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab6.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab6.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet.BooksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet.PublisherDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet.PublishesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet.BooksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet.PublisherRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet.PublishesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet.BooksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet.PublisherRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet.PublishesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSetTableAdapters.BooksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSetTableAdapters.PublisherTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSetTableAdapters.PublishesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Lab6.Lab6DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Lab6.Lab6DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Lab6.Lab6DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSetTableAdapters.TableAdapterManager.UpdateAll(Lab6.Lab6DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1.BooksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1.PublisherDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1.PublishesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1.BooksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1.PublisherRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1.PublishesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1.BooksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1.PublisherRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1.PublishesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1TableAdapters.BooksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1TableAdapters.PublisherTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1TableAdapters.PublishesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Lab6.Lab6DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Lab6.Lab6DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Lab6.Lab6DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Lab6.Lab6DataSet1TableAdapters.TableAdapterManager.UpdateAll(Lab6.Lab6DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Lab6.Lab6DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
